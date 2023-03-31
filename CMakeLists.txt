@@ -10,11 +10,11 @@ include_directories(
 )
 
 set(EXAM_SRCS
-    example.h
+    src/example/example.h
 )
 
 set(INTERFACE_FILES
-    example.i
+    src/example/example.i
 )
 
 set_source_files_properties(${INTERFACE_FILES} PROPERTIES CPLUSPLUS   ON)
